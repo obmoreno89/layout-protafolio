@@ -1,11 +1,11 @@
-<!-- <h3 title="Oye"> Hola soy! 👋</h3> -->
+<!-- <h3 title="Oye"> Hola soy! 👋 </h3> -->
 
 <!--
-**Omar Barragan Moreno/ZamranxD** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**Omar Barragan Moreno/obmoreno89** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 
 -->
-<h3 title="hehehe"> Hey 👋, Soy Omar!</h3>
+<h3 title="hehehe"> Hey 👋 , Soy Omar!</h3>
 
 <a href="https://www.linkedin.com/in/omar-barragan-moreno-051189">
   <img align="left" alt="Omar_BM" width="24px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />
@@ -21,19 +21,19 @@
 <img src="https://komarev.com/ghpvc/?username=obmoreno89&color=blue">
 <br />
 
-Hola, soy **Omar Barragán Moreno**, un **Ingeniero en desarrollo de Software** 🚀 de Orizaba, Veracruz.
+Hola, soy **Omar Barragán Moreno**, un **Ingeniero en desarrollo de Software**  🚀  de Orizaba, Veracruz.
  
   <img align="right" alt="GIF" src="https://i.pinimg.com/originals/e4/26/70/e426702edf874b181aced1e2fa5c6cde.gif" />
 
 **Sobre mi!**
 
-- 👨🏽‍💻 Actualmente no me encuentro trabajando.
-- 🌱 Actualmente me encuentro desarrollando cursos con la plataforma de platzi, fortaleciendo los lenguajes que aprendi en la universidad.
-- 🤔 Mis intereses son el diseño web y el desarrollo de algunas cosas interesantes y útiles xD.
-- 💼 Actualmente me encuentro desarrollando el idioma de ingles.
-- 💬 Pregúntame de cualquier cosa, ¡me encanta responder!
-- 📫 Envíeme un correo electrónico a [obmoreno89@gmail.com].
-- 📝 Mira mi [Curriculum Vitae](https://drive.google.com/file/d/1pkzBQrg6J_uGtG25PdLlKhov08hqex0u/view?usp=sharing) para obtener más información.
+- 👨🏽‍💻  Actualmente no me encuentro trabajando.
+- 🌱  Actualmente me encuentro desarrollando cursos con la plataforma de platzi, fortaleciendo los lenguajes que aprendi en la universidad.
+- 🤔  Mis intereses son el diseño web y el desarrollo de algunas cosas interesantes y útiles xD.
+- 💼  Actualmente me encuentro desarrollando el idioma de ingles.
+- 💬  Pregúntame de cualquier cosa, ¡me encanta responder!
+- 📫  Envíeme un correo electrónico a [obmoreno89@gmail.com].
+- 📝  Mira mi [Curriculum Vitae](https://drive.google.com/file/d/1pkzBQrg6J_uGtG25PdLlKhov08hqex0u/view?usp=sharing) para obtener más información.
 
 
 **Idiomas y herramientas:**  
