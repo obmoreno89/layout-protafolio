@@ -1,0 +1,351 @@
+:root{
+  --purple: #5E3AEE;
+  --black: #000000;
+  --white: #FFFFFF;
+  --grey: #696969;
+  --purple-low: #F0F0F5;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Barra de navegacion */
+
+.header-link-container div{
+    width: 100%;
+    height: 40px;
+    display: grid;
+    grid-template-columns: 5fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    align-content: center;
+    margin-top: 20px;
+    font-size: 2.5rem;
+}
+
+.header-link-container .name-purple{
+    text-decoration: none;
+    color: var(--purple);
+    margin: 55px;
+    font-weight: 600;
+    text-shadow: 0 3px 3px #BFB8B8;
+    
+}
+
+.header-link-container .link{
+   float: right;
+   margin-right: 40px;
+   text-decoration: none;
+   color: var(--black);
+   text-shadow: 0 3px 3px #BFB8B8;
+   font-weight: 300;
+   
+}
+
+.header-link-container .link-black{
+   font-weight: 700;
+   text-shadow: 0 3px 3px #BFB8B8;
+}
+
+/* contenedor principal */
+
+.main-principal{
+    width: 91.5%;
+    height: 530px;
+    margin-left: 60px;
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    background-color: #F0F0F5;
+}
+
+
+.main-principal h1{
+    width: 85%;
+    font-size: 4.7rem;
+    line-height: 60px;
+    margin-left: 100px; 
+}
+
+.main-principal span{
+    color: var(--purple);
+}
+
+.main-principal p{
+    color: var(--grey);
+    font-size: 3.5rem;
+    font-weight: 500;
+}
+
+.main-principal .main-button-container{
+    display: inline-block;
+    margin-left: 73px;
+}
+
+.main-principal button{
+    width: 175px;
+    height: 35px;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.main-principal .button-left{
+    background-color: var(--white);
+    border: none;
+    box-shadow: -2px 2px 4px var(--grey);
+}
+
+.main-principal .button-right{
+    background-color: var(--purple);
+    border: none;
+    box-shadow: -2px 2px 4px var(--grey);
+}
+
+.main-principal img{
+    display: flex;
+    width: 500px;
+    height: 500px;
+    left: 758px;
+    top: 132px;
+}
+
+
+.main-principal a{
+    text-decoration: none;
+    color: var(--black);
+    font-weight: 600;
+    font-size: 1.7rem;
+}
+
+.main-principal .button-purple{
+    color: var(--white);
+}
+
+/* Experiencia portafolio */
+
+.border-container{
+    width: 91.5%;;
+    border-bottom: 3px solid var(--purple-low);
+    padding-bottom: 130px;
+    margin-left: 59px;
+    text-align: center;
+}
+
+.experience-container{
+    width: 91.5%;
+    height: 191px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 59px;
+    
+}
+
+.experience-container article{
+    text-align: center;
+    line-height: 45px;
+}
+
+.experience-container h2{
+    font-size: 6.0rem;
+}
+
+.experience-container p{
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--grey);
+}
+
+
+.borders-container{
+    width: 91.5%;;
+    border-bottom: 3px solid var(--purple-low);
+    margin-left: 59px;
+    text-align: center;
+}
+
+/* Descripcion de mi persona */
+
+.about-container{
+    width: 100%;
+    height: 420px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 200px;
+    background-color: #0F1221;
+}
+
+
+.about-info-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 90px;
+    margin-left: 60px;
+}
+
+.about-info-container div{
+    width: 30%;
+    height: 20px;
+    background-color: var(--purple);
+    
+}
+
+.about-info-container h1{
+    font-size: 4.0rem;
+    color: var(--white);
+    line-height: 70px;
+}
+
+.about-container p{
+    font-size: 2.5rem;
+    color: var(--white);
+    font-weight: 200;
+    line-height: 35px;
+}
+
+.about-container h3{
+    font-size: 3.0rem;
+    color: var(--purple);
+}
+
+.image-movil-container img{
+    width: 450px;
+    height: 490px;
+    margin-top: 15px;
+    display: grid;
+    margin-left: 200px;
+
+}
+
+/* Habilidades */
+
+.skill-container{
+    width: 80%;
+    height: 300px;
+    margin-top: 60px;
+    margin-left: 64px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    align-items: center;
+}
+
+.title-skill-container{
+    font-size: 3.0rem;
+    color: var(--purple);
+
+}
+
+
+.skill-info-container ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 1.7rem;
+}
+
+/* formulario de contacto */
+
+.contact-container{
+    width: 100%;
+    height: 350px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 150px;
+    background-color: var(--purple);
+}
+
+.contact-info-container h1{
+    font-size: 3.5rem;
+    color: var(--white);
+    margin-top: 35px;
+    margin-left: 60px;
+    line-height: 70px;
+}
+
+.contact-info-container p{
+    width: 70%;
+    font-size: 1.5rem;
+    color: var(--white);
+    margin-left: 60px;
+    font-weight: 300;
+}
+
+.contact-info-container img{
+    width: 480px;
+    height: 200px;
+    margin-left: 60px;
+}
+
+.form-container{
+    margin-top: 35px;
+    margin-left: 110px;
+    line-height: 25px;
+}
+
+.form-container label{
+    font-size: 1.8rem;
+    color: var(--white);
+}
+
+.form-container .input-form{
+    width: 91.5%;
+    height: 25px;
+    border: none;
+    opacity: 55%;
+}
+
+.form-container .input-message-form{
+    width: 91.5%;
+    height: 100px;
+    border: none;
+    opacity: 55%;
+}
+
+.form-container button{
+    width: 91.5%;
+    height: 35px;
+    font-size: 1.7rem;
+    margin-top: 13px;
+    font-weight: 700;
+}
+
+/* pie de pagina */
+
+.footer-container{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-container h3{
+    font-size: 1.5rem;
+    color: var(--grey);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

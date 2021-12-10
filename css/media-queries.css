@@ -1,0 +1,329 @@
+@media (max-width: 1024px){
+    .header-link-container div {
+        width: 99%;
+        display: grid;
+        grid-template-columns: 3fr 1fr 1fr 1fr 1fr;
+    }
+    .main-principal{
+        width: 88.5%;
+    }
+    .main-principal h1{ 
+        line-height: 60px;
+        margin-left: 33px; 
+    }
+    .main-principal .main-button-container {
+        display: inline-flex;
+        margin-left: 10px;
+    }
+    .main-principal button {
+        width: 160px;
+        margin-left: 25px;
+        margin-top: 50px;
+    }
+    .main-principal img {
+        width: 400px;
+        height: 450px;
+    }
+    .border-container {
+        width: 88.5%;
+        padding-bottom: 130px;
+        margin-left: 59px;
+    }
+    .experience-container {
+        width: 88.5%;
+        height: 191px;
+    }
+    .borders-container {
+        width: 88.5%;
+        margin-left: 59px;
+        text-align: center;
+    }
+    
+    .about-info-container {
+        margin-top: 60px;
+        margin-left: 42px;
+    }
+    .about-info-container div {
+        width: 32%;
+        height: 20px;
+    }
+    .about-info-container h1 {
+        font-size: 3.5rem;
+    }
+    .about-container p {
+        font-size: 2.5rem;
+        color: var(--white);
+        font-weight: 200;
+        line-height: 39px;
+    }
+    .image-movil-container img {
+        width: 450px;
+        height: 490px;
+        display: grid;
+        margin-left: 35px;
+    }
+    
+    .form-container {
+        margin-top: 35px;
+        margin-left: 40px;
+        line-height: 25px;
+    }
+}
+
+@media (max-width: 768px){
+    .header-link-container div {
+        width: 98%;
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+        font-size: 2.0rem;
+    }
+    .header-link-container {
+        width: 100%;
+        font-size: 2.5rem;
+    }
+    .main-principal {
+        width: 84.5%;
+        margin-top: 35px;
+    }
+    .main-principal h1 {
+        width: 85%;
+        font-size: 3.8rem;
+        line-height: 60px;
+    }
+    .main-principal p {
+        font-size: 2.0rem;
+    }
+    .main-principal button {
+        width: 90px;
+        margin-left: 23px;
+    }    
+    .main-principal img {
+        width: 400px;
+        height: 400px;
+        margin-bottom: 55px;
+    }
+    .border-container {
+        width: 84.4%;
+    }
+    .experience-container {
+        width: 84.5%;
+        height: 170px;
+    }
+    .experience-container h2 {
+        font-size: 4.5rem;
+    }
+    .experience-container p {
+        font-size: 1.0rem;
+    }
+    .borders-container {
+        width: 84.4%;
+    }
+    .about-container {
+        margin-top: 120px;
+    }
+    .about-info-container {
+        margin-top: 50px;
+        margin-left: 35px;
+        width: 100%;
+    }
+    .about-info-container h1 {
+        font-size: 3.0rem;
+    }
+    .about-container p {
+        font-size: 2.0rem;
+    }
+    .about-container h3 {
+        font-size: 2.5rem;
+    }
+    .image-movil-container img {
+        width: 400px;
+        height: 450px;
+    }
+    .skill-container {
+        margin-top: 40px;
+        margin-left: 38px;
+    }
+    .title-skill-container {
+        font-size: 2.5rem;
+    }
+    .contact-container {
+        margin-top: 90px;
+
+    }
+    .contact-info-container h1 {
+        font-size: 3.0rem;
+        margin-top: 15px;
+        margin-left: 35px;
+    }
+    .contact-info-container p {
+        margin-left: 35px;
+    }
+    .contact-info-container img {
+        width: 300px;
+        margin-left: 30px;
+    }
+    .form-container .input-form {
+        width: 80%;
+    }
+    .form-container .input-message-form {
+        width: 80%;
+    }
+    .form-container button {
+        width: 80%;
+    }
+
+
+}
+
+@media (max-width: 425px){
+    .header-link-container {
+        width: 128%;
+    }
+    .header-link-container div{
+        display: flex;
+        justify-content: space-between;
+    }
+    .header-link-container .name-purple {
+        margin-left: 43px;
+    }
+    .header-link-container .link{
+        display: none;
+    }
+    .header-link-container span{
+         width: 20px;
+         height: 13px;
+         background-image: url('../assets/icon/menu.svg');
+    }
+    .main-principal {
+        width: 115%;
+        height: 600px;
+        grid-template-columns: 1fr;
+        margin-top: 14px;
+        margin-left: 44px;
+    }
+    .main-principal img {
+        width: 250px;
+        height: 250px;
+    }
+    .main-principal h1 {
+        width: 90%;
+        margin-top: 40px;
+        font-size: 4.0rem;
+        line-height: 50px;
+        text-align: center;
+    }
+    .main-principal .main-button-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-principal button {
+        width: 150px;
+        margin-top: 15px;
+    }
+    .border-container {
+        width: 114.4%;
+        margin-left: 45px;
+    }
+    .experience-container {
+        width: 110.5%;
+        height: 260px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 30px;
+    }
+    .borders-container {
+        width: 114.4%;
+        margin-left: 45px;
+    }
+    .experience-container h2 {
+        font-size: 4.0rem;
+    }
+    .about-container {
+        width: 133%;
+        height: 750px;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+    .about-info-container {
+        width: 80%;
+        display: flex;
+        align-items: center;
+    }
+    .about-info-container div {
+        width: 40%;
+    }
+    .about-info-container h1 {
+        font-size: 4rem;
+    }
+    .about-container p {
+        font-size: 3rem;
+        text-align: center;
+    }
+    .image-movil-container img {
+        width: 300px;
+        height: 350px;
+    }
+    .skill-container {
+        width: 100%;
+        margin-top: 40px;
+        margin-left: 90px;
+    }
+    .title-skill-container {
+        font-size: 3.5rem;
+        text-align: center;
+    }
+    .contact-container {
+        width: 133%;
+        height: 660px;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+    .contact-info-container h1 {
+        font-size: 4rem;
+        margin-top: 15px;
+        text-align: center;
+        font-weight: 900;
+    }
+    .contact-info-container p {
+        display: none;
+    }
+    .contact-info-container img {
+        width: 300px;
+        margin-top: 20px;
+    }
+    .form-container {
+        width: 90%;
+        margin-left: 100px;
+        margin-bottom: 100px;
+    }
+    .footer-container {
+        width: 133%;
+    }
+
+}
+
+@media (max-width: 320px){
+    .main-principal h1 {
+        margin-left: 17px;
+    }
+    .experience-container {
+        width: 125.5%;
+        margin-left: 20px;
+    }
+    .about-container {
+        width: 141%;
+    }
+    .skill-container {
+        width: 108%;
+        margin-left: 60px;
+    }
+    .contact-container {
+        width: 143%;
+    }
+    .main-principal .main-button-container {
+        margin-left: -20px;
+    }
+}
