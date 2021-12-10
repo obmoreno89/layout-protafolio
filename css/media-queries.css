@@ -177,7 +177,7 @@
 
 @media (max-width: 425px){
     .header-link-container {
-        width: 100%;
+        width: 90%;
     }
     .header-link-container div{
         display: flex;
@@ -195,7 +195,7 @@
          background-image: url('../assets/icon/menu.svg');
     }
     .main-principal {
-        width: 90%;
+        width: 80%;
         height: 600px;
         grid-template-columns: 1fr;
         margin-top: 14px;
@@ -206,8 +206,8 @@
         height: 250px;
     }
     .main-principal h1 {
-        width: 90%;
-        margin-top: 40px;
+        width: 80%;
+        margin-top: 25px;
         font-size: 4.0rem;
         line-height: 50px;
         text-align: center;
@@ -219,22 +219,24 @@
     }
     .main-principal button {
         width: 150px;
-        margin-top: 15px;
+        margin-top: 10px;
+        margin-left: -6px;
     }
     .border-container {
-        width: 85%;
+        width: 79%;
         margin-left: 45px;
     }
     .experience-container {
-        width: 80%;
+        width: 70%;
         height: 260px;
         display: grid;
         grid-template-columns: 1fr 1fr;
         margin-top: 30px;
     }
     .borders-container {
-        width: 85%;
+        width: 79%;
         margin-left: 45px;
+        margin-top: 15px;
     }
     .experience-container h2 {
         font-size: 4.0rem;
@@ -248,6 +250,7 @@
     }
     .about-info-container {
         width: 80%;
+        margin-left: 5px;
         display: flex;
         align-items: center;
     }
@@ -255,20 +258,19 @@
         width: 40%;
     }
     .about-info-container h1 {
-        font-size: 4rem;
+        font-size: 3rem;
     }
     .about-container p {
-        font-size: 3rem;
+        font-size: 2.5rem;
         text-align: center;
     }
     .image-movil-container img {
         width: 300px;
         height: 350px;
+        margin-left: 5px;
     }
     .skill-container {
-        width: 50%;
         margin-top: 40px;
-        margin-left: 90px;
     }
     .title-skill-container {
         font-size: 3.5rem;
@@ -277,9 +279,11 @@
     .contact-container {
         width: 100%;
         height: 660px;
-        display: grid;
-        grid-template-columns: 1fr;
-        justify-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-info-container{
+        margin-right: 45px;
     }
     .contact-info-container h1 {
         font-size: 4rem;
@@ -293,11 +297,11 @@
     .contact-info-container img {
         width: 300px;
         margin-top: 20px;
+        margin-left: 50px;
     }
     .form-container {
-        width: 90%;
-        margin-left: 100px;
-        margin-bottom: 100px;
+        width: 95%;
+        margin-left: 50px;   
     }
     .footer-container {
         width: 100%;
